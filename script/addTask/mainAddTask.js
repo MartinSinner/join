@@ -95,7 +95,7 @@ async function loadContacts(assignedContacts = []) {
 async function fetchContacts() {
   try {
     const response = await fetch(
-      "https://joinbackend-9bd67-default-rtdb.europe-west1.firebasedatabase.app/.json"
+      "https://join-martinsinner-default-rtdb.europe-west1.firebasedatabase.app/.json"
     );
     const data = await response.json();
     return data.Data.Contacts || [];

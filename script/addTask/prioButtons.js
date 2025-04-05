@@ -13,7 +13,7 @@ function setPriority(priority) {
   const activeImg = activeButton.querySelector(`img`);
 
   activeButton.classList.add(priority);
-  activeImg.src = `/assets/icon/addTask/${priority}_white.png`;
+  activeImg.src = `/join/assets/icon/addTask/${priority}_white.png`;
   selectedPriority = priority;
 }
 
@@ -28,11 +28,11 @@ function resetButtons() {
     const img = button.querySelector("img");
 
     if (button.id === "urgentButton") {
-      img.src = "/assets/img/prioHigh.png";
+      img.src = "/join/assets/img/prioHigh.png";
     } else if (button.id === "mediumButton") {
-      img.src = "/assets/img/prioMedium.png";
+      img.src = "/join/assets/img/prioMedium.png";
     } else if (button.id === "lowButton") {
-      img.src = "/assets/img/prioLow.png";
+      img.src = "/join/assets/img/prioLow.png";
     }
   });
 }
@@ -48,11 +48,11 @@ function resetButtonsOverlay() {
     const img = button.querySelector("img");
 
     if (button.id === "urgentButton") {
-      img.src = "/assets/img/prioHigh.png";
+      img.src = "/join/assets/img/prioHigh.png";
     } else if (button.id === "mediumButton") {
-      img.src = "/assets/img/prioMedium.png";
+      img.src = "/join/assets/img/prioMedium.png";
     } else if (button.id === "lowButton") {
-      img.src = "/assets/img/prioLow.png";
+      img.src = "/join/assets/img/prioLow.png";
     }
   });
 }
